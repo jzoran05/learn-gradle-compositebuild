@@ -1,4 +1,4 @@
 rootProject.name = 'mainApp'
 
-includeBuild("../project01")
-includeBuild("../project02")
+includeBuild("./modules/project01")
+includeBuild("./modules/project02")
