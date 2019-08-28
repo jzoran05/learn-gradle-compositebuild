@@ -1,3 +1,4 @@
 rootProject.name = 'mainApp'
 
 includeBuild("../project01")
+includeBuild("../project02")
