@@ -1,6 +1,7 @@
-import akka.actor.AbstractActor
+import akka.actor.*
 import akka.event.Logging
 import akka.event.LoggingAdapter
+
 
 
 class MyActor01 : AbstractActor() {
@@ -13,7 +14,13 @@ class MyActor01 : AbstractActor() {
             .build()
     }
 
+    fun MyReceive(message: Any)  {
 
+        when (message) {
+            "1" -> println("Received $message")
+        }
+
+    }
     /*
     fun receive = {
         case "test" => log.info("received test")
@@ -21,3 +28,5 @@ class MyActor01 : AbstractActor() {
     }
      */
 }
+
+

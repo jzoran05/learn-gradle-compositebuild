@@ -5,7 +5,7 @@ plugins {
     idea
 }
 
-group = "com.learn.gradle.compositebuild"
+group = "com.learn.gradle.compositeBuild"
 version = "1.0-SNAPSHOT"
 
 repositories {

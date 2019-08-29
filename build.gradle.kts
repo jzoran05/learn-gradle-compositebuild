@@ -17,6 +17,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.learn.gradle.compositeBuild:project01:1.0-SNAPSHOT")
+    implementation("com.learn.gradle.compositeBuild:project02:1.0-SNAPSHOT")
 }
 
 tasks.withType<KotlinCompile> {
